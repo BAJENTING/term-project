@@ -168,42 +168,65 @@
                   <a href="b">Read More</a>
               </div>
             </div>
-    <div id="Reservation">
-        <h2>Reservation Form</h2>
-        <hr>
-        <label for="Full Name">Full Name</label>
-        <input type="text" placeholder="Last name, First name" size="20">
-        <label for="Email Address">Email Address</label>
-        <input type="text" placeholder="mail@mail.com" size="20">
-        <label for="Phone Number">Phone Number</label>
-        <input type="text" placeholder="(Area Code) 1234567890" size="20">
-        <p> Reservation Details</p>
-        <select name="device" id="device" >
-        <option value="1 person table">1 person table</option>
-        <option value="2 persons table">2 persons table</option>
-        <option value="4 persons table">4 persons table</option>
-        </select>
-        <label for="date">Reservation Date</label>
-        <input type="date" name="date" id="date">
-        <input type="radio" name="time" id="morning" value="morning">
-        <label for="morning">Morning</label>
-        <input type="radio" name="time" id="afternoon" value="afternoon">
-        <label for="afternoon">Afternoon</label>
-        <p> Additional Requests</p>
-        <textarea name="Additional Requests" id="Additional Requests" cols="50" rows="10"
-        ></textarea>
-   </div>
-   <div>
-        <h3>Payment</h3>
-        <p> Payment Accepted Cards</p>
-        <label for="Credit Card Name">Credit Card Name</label>
-        <input type="text" placeholder="John Doe" size="20">
-        <label for="Credit Card Number">Credit Card Number</label>
-        <input type="text" placeholder="1234567890" size="20">
-        <input name="Agreement" type="checkbox" value="cross">
-        I agree with this term. <input type="submit" value="Submit">
-    </div>
-    <div>
+            <div id="Reservation" class="Reservation">
+                <div class="form">
+                  <h2 align="center">Reservation Form</h2>
+                </div>
+                  <hr align="center" width="20%" color="salmon">
+              <div class="name">
+                  <label for="Full Name">Full Name</label>
+                  <br>
+                  <input type="text" placeholder="Last name, First name" size="20">
+                  <br>
+                  <label for="Email Address">Email Address</label>
+                  <br>
+                  <input type="text" placeholder="mail@mail.com" size="20">
+                  <br>
+                  <label for="Phone Number">Phone Number</label>
+                  <br>
+                  <input type="text" placeholder="(Area Code) 1234567890" size="20">
+                  <p> Reservation Details</p>
+                  <select name="device" id="device" >
+                  <option value="1 person table">1 person table</option>
+                  <option value="2 persons table">2 persons table</option>
+                  <option value="4 persons table">4 persons table</option>
+                  </select>
+                  <br>
+                  <label for="date">Reservation Date</label>
+                  <br>
+                  <input type="date" name="date" id="date">
+                  <br>
+                  <input type="radio" name="time" id="morning" value="morning">
+                  <label for="morning">Morning</label>
+                  <input type="radio" name="time" id="afternoon" value="afternoon">
+                  <label for="afternoon">Afternoon</label>
+              </div>
+          
+              <div class="additional">
+                  <p> Additional Requests</p>
+                  <textarea name="Additional Requests" id="Additional Requests" cols="50" rows="10"
+                  ></textarea>
+                <div class="payment">
+                  <h3>Payment</h3>
+                  <p> Payment Accepted Cards</p>
+                  <label for="Credit Card Name">Credit Card Name</label>
+                  <br>
+                  <input type="text" placeholder="John Doe" size="20">
+                <br>
+                  <label for="Credit Card Number">Credit Card Number</label>
+                  <br>
+                  <input type="text" placeholder="1234567890" size="20">
+                <br>
+                 <div class="agreement">
+                  <input name="Agreement" type="checkbox" value="cross">
+                  I agree with this term. 
+                </div>
+                  <div class="Submit">
+                  <input type="submit" value="Submit">
+                  </div>
+               </div>
+            </div>
+            <br>
         <h2>Opening Hours</h2>
         <table>
             <thead>

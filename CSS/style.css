@@ -1,0 +1,374 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: burlywood;
+   margin-top: -10px;
+   margin-right: -10px;
+   margin-left: -10px;
+   padding-left: 1em;
+   padding-right: 1em;
+  }
+  .nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+  .nav li {
+    display: inline;
+    color: inherit;
+  }
+  .banner {
+    height: 650px;
+    background-color: saddlebrown;
+    background-image: url(../images/images/atf-image.jpg);
+    background-position: center;
+    margin-bottom: 5%;
+    margin-top: -70px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .banner-text{
+    width: 40%;
+    position: relative;
+    top: 10%;
+    left: 7.5%;
+  }
+  .banner-text p{
+    font-style: italic;
+  }
+  .banner-text h2{
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .banner-text a{
+    padding: 15px 20px;
+    background-color: #312a26;
+    text-decoration: none;
+    color: white;
+  }
+  .banner-text span{
+    color: green;
+  }
+  .box1 {
+    background-image: url(../images/images/merchandise1.jpg);
+    width: 49%;
+    float: left;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 2em;
+  }
+  .box-text1 {
+    padding-top: 3em;
+    padding-left: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    width: 40%
+  }
+  .box-text1 a {
+    text-decoration: none;
+    font-size: 10px;
+    color: inherit;
+    top: 2em;
+  }
+  .box2 {
+    background-image: url(../images/images/merchandise2.jpg);
+    width: 47%;
+    float: right;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 2em;
+  }
+  .box-text2 {
+    padding-top: 3em;
+    padding-left: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    width: 45%;
+  }
+  .box-text2 a {
+    text-decoration: none;
+    font-size: 10px;
+    color: inherit;
+    top: 2em;
+  }
+  .products p {
+    color: salmon;
+    margin-top: -1em;
+    
+  }
+  .column {
+    float: left;
+    margin-left: 2em;
+  }
+  .column2 {
+    float: left;
+    margin-left: -5em;
+  }
+  .column3 {
+    float: left;
+    margin-left: -5em;
+    margin-right: 1em;
+  }
+  .column4 {
+    display: inline-table;
+  }
+  .happens p {
+    color: salmon;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+  }
+  .happens h2 {
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .friday {
+    background-image: url(../images/images/banner.jpg);
+    width: 90%;
+    margin:auto;
+    background-position: top;
+    height: 300px;
+    display: block;
+  }
+  .friday-text {
+    text-align: center;
+    padding-top: 90px;
+  }
+  .friday-text p{
+    color: salmon;
+    font-style: italic;
+  }
+  .friday-text h3 {
+    color: white;
+  }
+  .friday-text a {
+    padding: 15px 20px;
+    background-color: #312a26;
+    color: white;
+    text-decoration: none;
+  }
+  .happens2 p{
+    color: salmon;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+  }
+  .happens2 h2{
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .extras a{
+    background-color: #312a26;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    margin-left: 3em;
+  }
+  .extras h3 {
+    width: 40%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .extra1 {
+    background-image: url(../images/images/merchandise3.jpg);
+    width: 47%;
+    float: left;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .extra2 {
+    background-image: url(../images/images/merchandise4.jpg);
+    width: 47%;
+    float: right;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .extra3 {
+    background-image: url(../images/images/merchandise5.jpg);
+    width: 47%;
+    float: left;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .extra4 {
+    background-image: url(../images/images/merchandise6.jpg);
+    width: 47%;
+    float: right;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .extras h3 {
+    padding-left: 2em;
+    padding-top: 20%;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+  }
+  .hp p{
+    color: salmon;
+    margin-top: -1em;
+  }
+  .name {
+    background-color: rgb(128, 128, 128, 0.2);
+    padding: 1em;
+    width: 46%;
+    height: 200px;
+    display: inline-table;
+  }
+  .additional {
+    background-color: rgb(128, 128, 128, 0.2);
+    margin-top: 5px;
+    padding: 1em;
+    width: 44%;
+    height: 150px;
+    display: inline-table;
+  }
+  .form{
+    font-family: Impact;
+  }
+  .form h2{
+    text-transform: uppercase;
+  }
+  .payment {
+    background-color: inherit;
+  }
+  .payment h3{
+    text-align: center;
+    font-size: 20px;
+  }
+  .payment p{
+    text-align: center;
+  }
+  .Submit {
+    text-align: center;
+  }
+  .Other {
+    background-image: url(../images/images/footer-img.jpg); 
+    color: white;
+    padding-left: 25px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 24em;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+  }
+  .Other span{
+    color: salmon;
+  }
+  .footer {
+    background-color: black;
+    background-image: url(../images/images/footer-image.jpg);
+    height: 100%;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -5px;
+    padding-left:1em;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  .footer h3 {
+    color: white;
+    display: block;
+  }
+  .footer li,a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    text-align: center;
+  }
+  .footer p{
+    text-align: center;
+  }
+  .copyright {
+    color: white;
+    padding-right: 1em;
+  }
+  .pr1 {
+    float: left;
+    margin-left: 6em;
+    margin-right: 10em;
+  }
+  .pr2 {
+    float: left;
+    margin-left: -10em;
+    margin-right: 4em;
+  }
+  .pr3 {
+    float: left;
+    margin-left: -10em;
+  }
+  .pr4 {
+    float: left;
+    margin-right: -10em;
+  }
+  .table {
+    float: left;
+    display: block;
+    margin-left: 0.5em;
+  }
+  .Blog {
+    float: left;
+    display: block;
+    margin-left: 0.5em;
+  }
+  .Post {
+    float: left;
+    display: block;
+    margin-left: 0.5em;
+  }
+  .Contact {
+    float: left; 
+    display: block;
+    margin-left: 0.5em;
+  }
+  .Location {
+    float: left;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .form h2{
+    margin-top: 2em;
+  }
